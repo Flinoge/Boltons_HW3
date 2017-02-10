@@ -57,5 +57,7 @@ fi
 
 ./$sedFile $inputFile | ./$awkFile > 20CenturyPresidents.txt
 
+echo "Your output file will be saved in the 20CenturyPresidents.txt file"
+
 exit 0
 
