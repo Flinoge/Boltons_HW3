@@ -1,0 +1,41 @@
+commit e4c48621984ff0a29e31c95fe416574347e2fe33
+Author: Trevor Orgill <trevororgill@weber.edu>
+Date:   Fri Feb 10 08:30:56 2017 -0700
+
+    Added where output file will be placed prompt
+
+commit 5bbef5165822d99458549061ad9367dd917c371d
+Author: Trevor Orgill <trevororgill@weber.edu>
+Date:   Fri Feb 10 08:28:48 2017 -0700
+
+    Fixed up REAME
+
+commit da5192ec560caeb5bb19c4f5d277f31d298a3ab6
+Author: Trevor Orgill <trevororgill@weber.edu>
+Date:   Fri Feb 10 08:27:13 2017 -0700
+
+    Finished up .sh File and updated README
+
+commit 9b28a4a3a05b3af0f7bd5eb9066a07f9cd3a0a70
+Author: Cayden Allen <caydenallen@mail.weber.edu>
+Date:   Thu Feb 9 13:47:41 2017 -0700
+
+    awk and sed files done
+
+commit 27a6ce54415f7c89cc2f593f225913c180379c48
+Author: Trevor Orgill <trevororgill@weber.edu>
+Date:   Thu Feb 9 13:00:46 2017 -0700
+
+    Adding executables
+
+commit 1752f86dd184f2c00e9911cc761c3410af50cec0
+Author: Trevor Orgill <trevororgill@weber.edu>
+Date:   Thu Feb 9 12:41:36 2017 -0700
+
+    Initial Commit
+
+commit 9b2a2238c357296672f5eb14524554d3ae6f2e2e
+Author: Flinoge <trevororgill@weber.edu>
+Date:   Thu Feb 9 12:34:29 2017 -0700
+
+    Create README.md
