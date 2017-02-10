@@ -24,8 +24,8 @@
 
 
 usage(){
-	echo "Usage $0 -c <customerDataFolder> -f <dataFile>"
-	echo "Both arguments are required"
+	echo "Usage $0 -s <sedFile> -a <awkFile> =i <inputFile>"
+	echo "All arguments are required"
 	exit 1
 }
 
@@ -34,24 +34,28 @@ then
 	usage
 fi
 
-while getopts ":c:f:" opt
+while getopts ":s:a:i:" opt
 do
 	case $opt in
-		f) dataFile=$OPTARG
+		s) sedFile=$OPTARG
 			;;
-		c) customerDataFolder=$OPTARG
+		a) awkFile=$OPTARG
 			;;
-		\?)
+		i) inputFile=$OPTARG
+			;;
+		\?) echo "Invalid arguments"
 			usage
 			;;
 	esac
 done
 
-if [[ -z $dataFile || -z $customerDataFolder ]]
-then usage
+if [[ -z $sedFile || -z $awkFile || -z $inputFile ]]
+then
+	echo "Missing arguments"
+	usage
 fi
 
-echo "$dataFile $customerDataFolder"
+./$sedFile $inputFile | ./$awkFile > 20CenturyPresidents.txt
 
 exit 0
 

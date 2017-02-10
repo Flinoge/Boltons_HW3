@@ -10,7 +10,6 @@ BEGIN { FS = "," }
 	if (length($4) == 10)
 		year=substr($4,7,10)
 	
-	print year
 	if (year > 1900)
 	{
 		print $2 ", from " $4 " to " $5 
